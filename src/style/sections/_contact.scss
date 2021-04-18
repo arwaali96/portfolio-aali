@@ -1,0 +1,72 @@
+#contact {
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  padding: 15rem 0 10rem 0;
+  margin-top: -15rem;
+  margin-bottom: -1px;
+  color: $white-color;
+
+  @include respond(tab-land) {
+    padding: 10rem 0;
+    clip-path: none;
+    margin-top: 0;
+    -webkit-clip-path: none;
+  }
+
+  .contact-wrapper {
+    margin-top: 3.2rem;
+    padding: 0 2rem;
+    backface-visibility: hidden;
+
+    &__text {
+      margin-bottom: 2.5rem;
+    }
+
+    &__text,
+    a {
+      font-size: 2.4rem;
+
+      // Responsive for contact text
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* 50% width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: none /* disable grabber */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #79b3b9;
+  color: rgb(0, 0, 0);
+  padding: 12px 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker teal color */
+input[type=submit]:hover {
+  background-color: #358e96;
+}
+
+/* Add a background color and some padding around the form */
+.form {
+  color: black;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 60px;
+}
+}
