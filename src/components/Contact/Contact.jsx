@@ -16,12 +16,12 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
-            </p>
-            <p>Email: aaa297@cornell.edu</p>
-            <p>Cell: 571-329-3250</p>
+            </p> <br />
+            <p className="contact-info">Email: aaa297@cornell.edu</p>
+            <p className="contact-info">Cell: 571-329-3250</p>
           </div>
         </Fade>
-        <div class="form">
+        {/* <div class="form">
           <form method="post" action="contactform.php">
             <p>Contact Me</p>
 
@@ -37,7 +37,7 @@ const Contact = () => {
             <input type="submit" value="Submit" />
 
           </form>
-        </div>
+        </div> */}
       </Container>
     </section>
   );

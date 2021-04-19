@@ -25,12 +25,16 @@
 
     &__text,
     a {
-      font-size: 2.4rem;
-
+      // font-size: 2.4rem;
+      font-size: 3rem;
       // Responsive for contact text
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+
+    .contact-info {
+      font-size: 2.2rem;
     }
   }
 
