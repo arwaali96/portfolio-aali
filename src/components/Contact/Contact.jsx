@@ -21,23 +21,21 @@ const Contact = () => {
             <p className="contact-info">Cell: 571-329-3250</p>
           </div>
         </Fade>
-        {/* <div class="form">
-          <form method="post" action="contactform.php">
+        <div class="form">
+          <form action="https://getform.io/f/fded394d-db26-4aa0-bba9-28e1107f6dbb" method="POST">
+
             <p>Contact Me</p>
 
-            <label for="name"></label>
             <input type="text" id="name" name="name" placeholder="Your Name" />
-            <br/>
-            <label for="email"></label>
+            <br />
             <input type="text" id="email" name="email" placeholder="Your Email" />
-            <br/>
-            <label for="message"></label>
+            <br />
             <textarea id="message" name="message" placeholder="Type Your Message"></textarea>
-            <br/>
+            <br />
             <input type="submit" value="Submit" />
 
           </form>
-        </div> */}
+        </div>
       </Container>
     </section>
   );
