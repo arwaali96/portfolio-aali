@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. I knew the road to being a software developer would be a trying yet rewarding process that I wanted to pursue.',
   paragraphTwo: 'With a few unexpected life detours following graduation, including spending a year as a substitute teacher and the Covid-19 pandemic, I decided to embark on a serious web development journey in the latter half of 2020. I joined a dedicated community of learners on freeCodeCamp and took some lessons before going off on my own. I learned how to use technologies like React, Git, and Gatsby (which I used to create this portfolio) among other things.',
   paragraphThree: 'I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I love the learning process and am excited by how much there still is to explore! I’m looking forward to improving and growing in my software development journey. Thanks for visiting and check out some of my projects below!',
-  resume: 'https://drive.google.com/file/d/1Nd4KQDuFrs1zRLIntcVYYjwisN7jm24X/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1bZCV2YbVi9TBBMQE7JwbuTxFGfIN35LL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,6 +35,15 @@ export const projectsData = [
   //   url: '',
   //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   // },
+   {
+    id: nanoid(),
+    img: 'heavenly-relaxation.png',
+    title: 'Heavenly Relaxation',
+    info: 'This is a responsive, multi-page web app built in React. It features two audio players that contain two of my favorite relaxing sounds to listen to while studying.',
+    info2: 'Building it really helped me hone my creative debugging skills and was a rewarding learning process.',
+    url: 'https://heavenly-relaxation.netlify.app/',
+    repo: 'https://github.com/arwaali96/heavenly-relaxation', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'task_tracker.png',
@@ -44,15 +53,6 @@ export const projectsData = [
     url: 'https://personal-task-tracker.netlify.app/',
     repo: 'https://github.com/arwaali96/task-tracker', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'meditate.jpeg',
-  //   title: 'Meditate',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
   {
     id: nanoid(),
     img: 'roman_num.png',
