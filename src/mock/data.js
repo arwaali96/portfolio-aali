@@ -19,22 +19,23 @@ export const heroData = {
 export const aboutData = {
   img: 'IMG_main2.jpeg',
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. I knew the road to being a software developer would be a trying yet rewarding process that I wanted to pursue.',
-  paragraphTwo: 'With a few unexpected life detours following graduation, including spending a year as a substitute teacher and the Covid-19 pandemic, I decided to embark on a serious web development journey in the latter half of 2020. I joined a dedicated community of learners on freeCodeCamp and took some lessons before going off on my own. I learned how to use technologies like React, Git, and Gatsby (which I used to create this portfolio) among others.',
-  paragraphThree: 'I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I love the learning process and am excited by how much there still is to explore! I’m looking forward to improving and growing in my software development journey. Thanks for visiting and check out some of my projects below!',
+  paragraphTwo: 'With a few unexpected life detours following graduation, including spending a year as a substitute teacher and the Covid-19 pandemic, I decided to embark on a serious web development journey in the latter half of 2020. I joined a dedicated community of learners on freeCodeCamp and took some lessons before going off on my own. I learned how to use technologies like React, Git, Gatsby (which I used to create this portfolio), and more recently,the MERN stack.',
+  paragraphThree: 'I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I love the learning process and am excited by how much there still is to explore. I’m looking forward to improving and growing in my software development journey. Thanks for visiting and check out some of my projects below!',
   resume: 'https://drive.google.com/file/d/1IvcrM-hk6iy5AQq4KEBmhicRClYHw48x/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: 'art.jpeg',
-  //   title:'Sunday فن Day',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'fun-day.png',
+    title:'Sunday فن Day',
+    info: 'Sunday فن (pronounced “fun” and meaning “art” in Arabic) Day is my first MERN stack application.  I connected the frontend and backend and implemented full CRUD functionality. I solidified my understanding of Redux data flow for state management. I manipulated Material-UI components to create this fully responsive site.',
+    info2: 'The title is a personal idea I had years ago for a place  (initially a physical board) to document and share my artistic pursuits and decided to do so as a coding project.',
+    url: 'https://fun-day.netlify.app/',
+    repo: 'https://github.com/arwaali96/sunday-fun-day-backend', // if no repo, the button will not show up
+
+  },
    {
     id: nanoid(),
     img: 'heavenly-relaxation.png',
