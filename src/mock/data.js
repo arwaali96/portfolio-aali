@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Arwa',
-  subtitle: "I'm a self-taught Web Developer",
+  subtitle: "I'm a highly driven aspiring Web Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'IMG_main2.jpeg',
-  paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. I knew the road to becoming a software developer would be a trying yet rewarding process that I wanted to pursue.',
-  paragraphTwo: 'With a few unexpected life detours following graduation, including spending a year as a substitute teacher and the Covid-19 pandemic, I decided to embark on a serious web development journey in the latter half of 2020. I joined a dedicated community of learners on freeCodeCamp and took some lessons before going off on my own. I learned how to use technologies like React, Git, Gatsby (which I used to create this portfolio), and more recently, the MERN stack.',
-  paragraphThree: 'I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I love the learning process and am excited by how much there still is to explore. I’m looking forward to improving and growing in my software development journey. Thanks for visiting and check out some of my projects below!',
-  resume: 'https://drive.google.com/file/d/1IvcrM-hk6iy5AQq4KEBmhicRClYHw48x/view?usp=sharing', // if no resume, the button will not show up
+  paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
+  paragraphTwo: "I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I'm excited to put my skills to good use as I continue on my journey. Thanks for visiting, and check out some of my projects below!",
+  paragraphThree: '>>>',
+  resume: 'https://drive.google.com/file/d/1Dp0FK9z6J7_a2AdM8_gmavhpEUEFX1-_/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'fun-day.png',
     title:'Sunday فن Day',
-    info: 'Sunday فن (pronounced “fun” and meaning “art” in Arabic) Day is my first MERN stack application.  I connected the frontend and backend and implemented full CRUD functionality. I solidified my understanding of Redux data flow for state management. I manipulated Material-UI components to create this fully responsive site.',
-    info2: 'The title is a personal idea I had years ago for a place  (initially a physical board) to document and share my artistic pursuits and decided to do so as a coding project.',
+    info: 'Sunday فن (pronounced “fun” and meaning “art” in Arabic) Day is an idea I had years ago for a place (initially a physical board) to document and share my artistic pursuits and decided to do so as a coding project.',
+    info2: 'MERN stack | CRUD functionality | Redux | Material-UI',
     url: 'https://fun-day.netlify.app/',
     repo: 'https://github.com/arwaali96/sunday-fun-day-backend', // if no repo, the button will not show up
 
@@ -40,8 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'heavenly-relaxation.png',
     title: 'Heavenly Relaxation',
-    info: 'This is a responsive, multi-page web app built in React. It features two audio players that contain two of my favorite relaxing sounds to listen to while studying.',
-    info2: 'Building it really helped me hone my debugging skills and was a rewarding learning process.',
+    info: 'This is a responsive, multi-page web app that features two audio players with my favorite relaxing sounds to listen to while studying.',
+    info2: 'React | media queries',
     url: 'https://heavenly-relaxation.netlify.app/',
     repo: 'https://github.com/arwaali96/heavenly-relaxation', // if no repo, the button will not show up
   },
@@ -49,8 +49,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'task_tracker.png',
     title: 'React Task Tracker',
-    info: "This task tracker built in React utilizes React Hooks and React Router to allow users to easily add, delete, and view tasks. It also implements JSON server to create a mock backend to save changes to tasks.",
-    info2: '',
+    info: "This task tracker allows users to easily add, delete, and view tasks and includes a mock backend to save changes to tasks.",
+    info2: 'React w/ Hooks and Router | JSON server',
     url: 'https://personal-task-tracker.netlify.app/',
     repo: 'https://github.com/arwaali96/task-tracker', // if no repo, the button will not show up
   },
