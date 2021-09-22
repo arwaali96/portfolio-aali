@@ -21,11 +21,21 @@ export const aboutData = {
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
   paragraphTwo: "I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I'm excited to put my skills to good use as I continue on my journey. Thanks for visiting, and check out some of my projects below!",
   paragraphThree: '>>>',
-  resume: 'https://drive.google.com/file/d/1Dp0FK9z6J7_a2AdM8_gmavhpEUEFX1-_/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1c0BU_Xf04_VkYZkNoXnTrq33m9rfuTRe/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'algamar-boba.png',
+    title:'Algamar Boba Shop',
+    info: 'Algamar Boba Shop is a responsive e-commerce site stocked with some of my favorite Sudanese drinks turned into boba flavors you can add to your basket.',
+    info2: 'Next.js | Tailwind CSS | Authentication (NextAuth + Firebase | Redux',
+    url: 'https://algamar-boba-shop.vercel.app/',
+    repo: 'https://github.com/arwaali96/algamar-boba-shop', // if no repo, the button will not show up
+
+  },
   {
     id: nanoid(),
     img: 'fun-day.png',
