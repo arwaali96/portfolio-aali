@@ -18,6 +18,27 @@
     clip-path: none;
   }
 
+.social-links-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white-color;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;

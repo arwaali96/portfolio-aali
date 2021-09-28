@@ -22,6 +22,9 @@ const About = () => {
     }
   }, []);
 
+  const { footer } = useContext(PortfolioContext);
+  const { networks } = footer;
+
   return (
     <section id="about">
       <Container>
@@ -48,18 +51,38 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
+                <span className="d-flex">
+                  {resume && (
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={resume}
+                      >
+                        Résumé
+                      </a>
+                    </span>
+                  )} 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div className="social-links-about">
+                    {networks &&
+                      networks.map((network) => {
+                        const { id, name, url } = network;
+                        return (
+                          <a
+                            key={id}
+                            href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            aria-label={name}
+                          >
+                            <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                          </a>
+                        );
+                      })}
+                  </div>
+                </span>
               </div>
             </Fade>
           </Col>
