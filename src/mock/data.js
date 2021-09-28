@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'algamar-boba.png',
     title:'Algamar Boba Shop',
     info: 'Algamar Boba Shop is a responsive e-commerce site stocked with some of my favorite Sudanese drinks turned into boba flavors you can add to your basket.',
-    info2: 'Next.js | Tailwind CSS | Authentication (NextAuth + Firebase | Redux',
+    info2: 'Next.js | Tailwind CSS | Authentication (NextAuth + Firebase) | Redux',
     url: 'https://algamar-boba-shop.vercel.app/',
     repo: 'https://github.com/arwaali96/algamar-boba-shop', // if no repo, the button will not show up
 
