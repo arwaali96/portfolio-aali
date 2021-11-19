@@ -15,6 +15,11 @@ export default () => {
         <title>{title || 'Arwa Ali'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://live.staticflickr.com/8193/8090204296_ba2c4f0620_c.jpg"
+        />
       </Helmet>
       <App />
     </>
