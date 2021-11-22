@@ -62,4 +62,18 @@
       }
     }
   }
+
+  .icons-row {
+    color: black; 
+  }
+
+  .info-row {
+    position: absolute;
+    right: 125px;
+    padding-top: 20px;
+
+    @include respond(phone) {
+      right: 15px;
+    }
+  }
 }

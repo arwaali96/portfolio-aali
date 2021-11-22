@@ -10,17 +10,17 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Arwa',
+  name: '<Arwa />',
   subtitle: "I'm a highly driven Web Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'IMG_main2.jpeg',
+  img: 'IMG_main3.jpeg',
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
   paragraphTwo: "I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I'm excited to put my skills to good use as I continue on my journey. Thanks for visiting, and check out some of my projects below!",
-  paragraphThree: '>>>',
+  paragraphThree: 'Competencies: HTML, CSS, JavaScript, React/ Redux/ Next, Node/Express/MongoDB, Git/Github, and several more!',
   resume: 'https://drive.google.com/file/d/185UXgTmnLvuaTFsF7EdbFlIqarU4R9T_/view?usp=sharing', // if no resume, the button will not show up
 };
 

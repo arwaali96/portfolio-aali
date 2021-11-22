@@ -8,6 +8,12 @@ const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
+  const { about } = useContext(PortfolioContext);
+  const { resume } = about;
+
+  const { footer } = useContext(PortfolioContext);
+  const { networks } = footer;
+
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -34,7 +40,7 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-          <span className="cta-btn cta-btn--hero">
+            <span className="cta-btn cta-btn--hero">
               <Link to="projects" smooth duration={1000}>
                 {cta || 'Projects'}
               </Link>
@@ -48,6 +54,44 @@ const Header = () => {
               <Link to="contact" smooth duration={1000}>
                 {cta || 'Contact'}
               </Link>
+            </span>
+          </p>
+
+          <p className="hero-cta info-row">
+            <span className="d-flex">
+              {resume && (
+                <span className="d-flex mt-3">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn text-color-main"
+                    href={resume}
+                  >
+                    Résumé
+                  </a>
+                </span>
+              )}
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="social-links-about">
+                {networks &&
+                  networks.map((network) => {
+                    const { id, name, url } = network;
+                    return (
+                      <span>
+                        <a
+                          key={id}
+                          href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label={name}
+                        >
+                          <i className={`fa fa-${name || 'refresh'} fa-2x icons-row`} />
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span>
+                    );
+                  })}
+              </div>
             </span>
           </p>
         </Fade>
