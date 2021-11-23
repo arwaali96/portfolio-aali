@@ -18,7 +18,7 @@ export default () => {
         <meta
           name="image"
           property="og:image"
-          content="https://live.staticflickr.com/8193/8090204296_ba2c4f0620_c.jpg"
+          content="https://live.staticflickr.com/65535/51699220486_25ea4cc467_c.jpg"
         />
       </Helmet>
       <App />

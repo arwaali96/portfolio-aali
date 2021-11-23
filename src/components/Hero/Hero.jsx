@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, cta, tools } = hero;
 
   const { about } = useContext(PortfolioContext);
   const { resume } = about;
@@ -27,9 +27,33 @@ const Header = () => {
     }
   }, []);
 
+
+  const openNav = () => {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  /* Set the width of the side navigation to 0 */
+  const closeNav = () => {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
   return (
     <section id="hero" className="jumbotron">
       <Container>
+        <div id="mySidenav" className="sidenav">
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+          <a href="#">Hi!</a>
+          <a href="#about">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <span onClick={openNav}>
+          <a className="openbtn">
+            <i className="fa fa-bars"></i>
+          </a>
+        </span>
+
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
