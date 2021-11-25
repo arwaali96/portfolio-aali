@@ -24,7 +24,8 @@ export default function HTML({
           property="og:image"
           content="https://live.staticflickr.com/65535/51700128595_80b3672b49_c.jpg"
         />
-        {headComponents}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+      {headComponents}
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}

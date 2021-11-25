@@ -1,0 +1,42 @@
+#fft {
+    background-color: rgb(186, 186, 194);
+    color: white;
+    height: 100%;
+    border-top: 0px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    padding-bottom: 10%;
+
+    .meme {
+        height: 140px;
+        width: 140px;
+        background-color: rgb(46, 240, 181);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article {
+        height: 140px;
+        width: 140px;
+        background-color: rgb(255, 153, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote {
+        height: 200px;
+        width: 500px;
+        margin-top: 40px;
+        background-color: rgb(74, 31, 80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}

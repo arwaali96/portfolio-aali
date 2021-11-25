@@ -29,7 +29,7 @@ const Header = () => {
 
 
   const openNav = () => {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "310px";
   }
 
   /* Set the width of the side navigation to 0 */
@@ -45,6 +45,7 @@ const Header = () => {
           <a href="#">Hi!</a>
           <a href="#about">About Me</a>
           <a href="#projects">Projects</a>
+          {/* <a href="#fft">Food for Thought</a> */}
           <a href="#contact">Contact</a>
         </div>
 
@@ -74,6 +75,11 @@ const Header = () => {
                 {cta || 'About Me'}
               </Link>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {/* <span className="cta-btn cta-btn--hero">
+              <Link to="fft" smooth duration={1000}>
+                {cta || 'Food for Thought'}
+              </Link>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             <span className="cta-btn cta-btn--hero">
               <Link to="contact" smooth duration={1000}>
                 {cta || 'Contact'}

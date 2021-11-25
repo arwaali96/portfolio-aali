@@ -18,6 +18,55 @@
     clip-path: none;
   }
 
+  #skills {
+    display: flex;
+    flex-direction: row;
+    color: $dark-blue-text;
+    justify-content: center;
+    margin-top: 30px;
+
+    a {
+      font-size: 5rem;
+      color: $dark-blue-text;
+      margin-right: 5px;
+      margin-left: 5px;
+
+      &:hover {
+        color: rgb(67, 124, 170);
+        transform: scale(1.1);
+      }
+    }
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2rem;
+      color: $dark-blue-text;
+      margin: 5px;
+    }
+
+    @include respond(phone) {
+      flex-wrap: wrap;
+    }
+
+    @include respond(tab-land) {
+      flex-wrap: wrap;
+    }
+
+    @include respond(tab-port) {
+      flex-wrap: wrap;
+    }
+  }
+
   .social-links-about {
     display: flex;
     flex-direction: row;
