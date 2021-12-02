@@ -54,9 +54,16 @@
 
   .hero-cta {
     display: flex;
+    flex-wrap: wrap;
 
     @include respond(tab-port) {
       justify-content: center;
+    }
+    
+    span {
+      @include respond(phone) {
+        margin-top: 10px;
+      }
     }
 
     & a {

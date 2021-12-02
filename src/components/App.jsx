@@ -30,7 +30,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      {/* <FFT /> */}
+      <FFT />
       <Contact />
       <Footer />
     </PortfolioProvider>

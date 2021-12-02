@@ -21,7 +21,7 @@ const Contact = () => {
             <p className="contact-info">Cell: 571-329-3250</p>
           </div>
         </Fade>
-        <div class="form">
+        <div className="form">
           <form action="https://getform.io/f/fded394d-db26-4aa0-bba9-28e1107f6dbb" method="POST">
 
             <p>Contact Me</p>

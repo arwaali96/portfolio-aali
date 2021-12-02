@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'IMG_main3.jpeg',
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
-  paragraphTwo: "I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I'm excited to put my skills to good use as I continue on my journey. Thanks for visiting, and check out some of my projects below!",
-  paragraphThree: '>>>>',
+  paragraphTwo: 'I love combining my problem-solving skills and creativity to explore the endless amount I can do with programming. I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I’m always excited to learn and implement any tools a job calls for to add to my growing list. Thanks for visiting, and I hope you enjoy scrolling through my portfolio and some of my other projects below!',
+  paragraphThree: 'P.S. Some of my non-coding hobbies are painting and personality psychology/ MBTI.',
   resume: 'https://drive.google.com/file/d/185UXgTmnLvuaTFsF7EdbFlIqarU4R9T_/view?usp=sharing', // if no resume, the button will not show up
 };
 
