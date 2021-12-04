@@ -24,6 +24,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         background-color: rgba(97, 134, 148, 0.95);
         padding: 30px 30px;
         border: none;
@@ -40,6 +41,10 @@
             font-weight: normal;
             font-style: italic;
             font-size: 18px;
+        }
+
+        @media only screen and (max-width: 75em) {
+            height: 250px;
         }
     }
 

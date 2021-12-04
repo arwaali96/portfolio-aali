@@ -39,7 +39,9 @@ const FFT = () => {
                                     <img src={meme} />
                                 </div>
                                 <div className="quote">
-                                    <p>“You remember lesson about balance? Lesson not just karate only. Lesson for whole life. Whole life have a balance. Everything be better. Understand?” - Mr. Miyagi, The Karate Kid</p>
+                                    <p>“You remember lesson about balance? Lesson not just karate only. Lesson for whole life. Whole life have a balance. Everything be better. Understand?”</p>
+                                <br />
+                                <p><strong>- Mr. Miyagi, The Karate Kid</strong></p>
                                 </div>
                                 <div class="flip-card">
                                     <div class="flip-card-inner">

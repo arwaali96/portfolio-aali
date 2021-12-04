@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
   paragraphTwo: 'I love combining my problem-solving skills and creativity to explore the endless amount I can do with programming. I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I’m always excited to learn and implement any tools a task calls for to add to my growing list. Thanks for visiting, and I hope you enjoy scrolling through my portfolio and some of my other projects below!',
   paragraphThree: 'P.S. Some of my non-coding hobbies are painting and reading on personality psychology/ MBTI.',
-  resume: 'https://drive.google.com/file/d/1v7A8Px-hbqOVjzFIIkPcYiIERge-SEBx/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1BxrWMEPqu9rogGRZ24KTkXsl1eimLHEe/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
