@@ -29,6 +29,12 @@ const FFT = () => {
                                 interval={7000}
                                 stopOnHover={true}
                             >
+                                <div className="phrase">
+                                    <h1>Phrase: Kama Muta</h1>
+                                    <br />
+                                    <p>"(काममूत in sanskrit, meaning: 'moved by love') is an emotion described as 'being moved', 'heart-warming', 'stirring', or 'being emotionally touched'...Kama Muta is felt when one observes or engages in events which cause a deepened sense of equivalence or oneness with others, and motivates devotion to those relationships."</p>
+                                    <a href="https://en.wikipedia.org/wiki/Kama_muta" target="_blank">(Read More)</a>
+                                </div>
                                 <div className="meme">
                                     <img src={meme} />
                                 </div>
@@ -42,12 +48,12 @@ const FFT = () => {
                                             <br />
                                             <p className="riddle">What is it that when you take away the whole, you still have some leftover?</p>
                                             <br />
-                                            <p>(Hover over me for the answer)</p>
+                                            <p>(Hover over/ click me for the answer)</p>
                                         </div>
                                         <div class="flip-card-back center">
-                                            <p className="riddle">Wholesome</p> 
+                                            <p className="riddle">Wholesome</p>
                                             <br />
-                                            <a href="https://thoughtcatalog.com/january-nelson/2020/08/funny-riddles/">(Source)</a>
+                                            <a href="https://thoughtcatalog.com/january-nelson/2020/08/funny-riddles/" target="_blank">(Source)</a>
                                         </div>
                                     </div>
                                 </div>

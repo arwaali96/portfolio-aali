@@ -43,6 +43,45 @@
         }
     }
 
+    .phrase {
+        color: black;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        p {
+            text-align: left;
+            font-size: 18px;
+        }
+
+        a {
+            color: #2b5cb8d7;
+
+            &:hover {
+                color: blue;
+            }
+        }
+
+        @media only screen and (max-width: 75em) {
+            padding: 25px;
+
+            h1 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
     .subtitle {
         margin-top: -40px;
         margin-bottom: 2%;

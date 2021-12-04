@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'IMG_main3.jpeg',
   paragraphOne: 'I discovered computer programming late into my junior year of college. I particularly enjoyed its problem-solving, collaborative, and creative facets. While this discovery scared me because I felt it was too late to switch majors, it also ignited a new passion and spurred my interest in purposeful technology. With a few unexpected life detours, I decided to embark on a serious web development journey in the latter half of 2020.',
-  paragraphTwo: 'I love combining my problem-solving skills and creativity to explore the endless amount I can do with programming. I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I’m always excited to learn and implement any tools a job calls for to add to my growing list. Thanks for visiting, and I hope you enjoy scrolling through my portfolio and some of my other projects below!',
-  paragraphThree: 'P.S. Some of my non-coding hobbies are painting and personality psychology/ MBTI.',
-  resume: 'https://drive.google.com/file/d/185UXgTmnLvuaTFsF7EdbFlIqarU4R9T_/view?usp=sharing', // if no resume, the button will not show up
+  paragraphTwo: 'I love combining my problem-solving skills and creativity to explore the endless amount I can do with programming. I have tried, failed, and succeeded and feel the same thrill each time I overcome speed bumps as I code. I’m always excited to learn and implement any tools a task calls for to add to my growing list. Thanks for visiting, and I hope you enjoy scrolling through my portfolio and some of my other projects below!',
+  paragraphThree: 'P.S. Some of my non-coding hobbies are painting and reading on personality psychology/ MBTI.',
+  resume: 'https://drive.google.com/file/d/1v7A8Px-hbqOVjzFIIkPcYiIERge-SEBx/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'algamar-boba.png',
     title:'Algamar Boba Shop',
     info: 'Algamar Boba Shop is a responsive e-commerce site stocked with some of my favorite Sudanese drinks turned into boba flavors you can add to your basket (from a JSON store I created).',
-    info2: 'Next.js | Tailwind CSS | Authentication (NextAuth + Firebase) | Redux',
+    info2: 'React | Next.js | Tailwind CSS | Authentication (NextAuth + Firebase) | Redux',
     url: 'https://algamar-boba-shop.vercel.app/',
     repo: 'https://github.com/arwaali96/algamar-boba-shop', // if no repo, the button will not show up
 
@@ -51,7 +51,7 @@ export const projectsData = [
     img: 'heavenly-relaxation.png',
     title: 'Heavenly Relaxation',
     info: 'This is a responsive, multi-page web app that features two audio players with my favorite relaxing sounds to listen to while studying.',
-    info2: 'React | media queries',
+    info2: 'React | Media Queries',
     url: 'https://heavenly-relaxation.netlify.app/',
     repo: 'https://github.com/arwaali96/heavenly-relaxation', // if no repo, the button will not show up
   },
@@ -60,7 +60,7 @@ export const projectsData = [
     img: 'task_tracker.png',
     title: 'React Task Tracker',
     info: "This task tracker allows users to easily add, delete, and view tasks and includes a mock backend to save changes to tasks.",
-    info2: 'React w/ Hooks and Router | JSON server',
+    info2: 'React w/ Hooks and Router | JSON Server',
     url: 'https://personal-task-tracker.netlify.app/',
     repo: 'https://github.com/arwaali96/task-tracker', // if no repo, the button will not show up
   },
@@ -69,7 +69,7 @@ export const projectsData = [
     img: 'roman_num.png',
     title: 'Roman Numeral Converter',
     info: 'This roman numeral converter built in React uses the JavaScript code from one of my first projects and combines it with an easy-to-use, sleek UI.',
-    info2: '',
+    info2: 'React | JavaScript | CSS',
     url: 'https://arabic-to-roman.netlify.app/',
     repo: 'https://github.com/arwaali96/roman-numeral-converter', // if no repo, the button will not show up
   },

@@ -41,7 +41,7 @@ const About = () => {
                   'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
               </p>
               <p className="about-wrapper__info-text">
-                {paragraphThree|| 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
               </p>
               <span className="d-flex">
                 {resume && (
@@ -77,6 +77,26 @@ const About = () => {
               </span>
 
               <div id="skills">
+                <span className="skill">
+                  <a
+                    href="https://reactjs.org/"
+                    target="_blank"
+                  >
+                    <i className="devicon-react-original" />
+                  </a>
+                  <strong>React</strong>
+                </span>
+
+                <span className="skill">
+                  <a
+                    href="https://redux.js.org/"
+                    target="_blank"
+                  >
+                    <i className="devicon-redux-original" />
+                  </a>
+                  <strong>Redux</strong>
+                </span>
+
                 <span className="skill">
                   <a
                     href="https://www.javascript.com/"
@@ -115,26 +135,6 @@ const About = () => {
                     <i className="devicon-sass-original" />
                   </a>
                   <strong>Sass</strong>
-                </span>
-
-                <span className="skill">
-                  <a
-                    href="https://reactjs.org/"
-                    target="_blank"
-                  >
-                    <i className="devicon-react-original" />
-                  </a>
-                  <strong>React</strong>
-                </span>
-
-                <span className="skill">
-                  <a
-                    href="https://redux.js.org/"
-                    target="_blank"
-                  >
-                    <i className="devicon-redux-original" />
-                  </a>
-                  <strong>Redux</strong>
                 </span>
 
                 <span className="skill">
