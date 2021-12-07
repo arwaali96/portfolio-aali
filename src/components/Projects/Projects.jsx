@@ -33,13 +33,13 @@ const Projects = () => {
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
-                  <Fade
+                  {/* <Fade
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
                     delay={500}
                     distance="30px"
-                  >
+                  > */}
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
@@ -69,16 +69,16 @@ const Projects = () => {
                         </a>
                       )}
                     </div>
-                  </Fade>
+                  {/* </Fade> */}
                 </Col>
                 <Col lg={8} sm={12}>
-                  <Fade
+                  {/* <Fade
                     right={isDesktop}
                     bottom={isMobile}
                     duration={1000}
                     delay={1000}
                     distance="30px"
-                  >
+                  > */}
                     <div className="project-wrapper__image">
                       <a
                         href={url || '#!'}
@@ -105,7 +105,7 @@ const Projects = () => {
                         </Tilt>
                       </a>
                     </div>
-                  </Fade>
+                  {/* </Fade> */}
                 </Col>
               </Row>
             );
