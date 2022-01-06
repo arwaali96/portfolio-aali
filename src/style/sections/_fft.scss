@@ -14,19 +14,54 @@
         align-items: center;
     }
     
+    .video {
+        padding-top: 12%;
+    }
+
     .meme {
         padding: 8px 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            padding-top: 50px;
+            height: 100%;
+            width: 330px;
+        }
+
+        a {
+            color: white;
+            background-color: black;
+            padding-top: 10px;
+            padding-bottom: 30px;
+
+            &:hover {
+                color: rgb(77, 102, 109);
+            }
+        }
+
+        @media only screen and (max-width: 37.5em) {
+            img {
+                width: 250px;
+            }
+
+            a {
+                background-color: transparent;
+            }
+        }
     }
 
     .quote {
-        height: 230px;
+        height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: rgba(97, 134, 148, 0.95);
-        padding: 30px 30px;
+        padding: 150px 30px;
         border: none;
         border-radius: 5px;
 
@@ -40,7 +75,7 @@
         p {
             font-weight: normal;
             font-style: italic;
-            font-size: 18px;
+            font-size: 15.5px;
         }
 
         @media only screen and (max-width: 75em) {
@@ -48,9 +83,9 @@
         }
     }
 
-    .phrase {
-        color: black;
-        background-color: white;
+    .article {
+        color: rgb(5, 151, 177);
+        background-color: rgb(41, 56, 85);
         width: 100%;
         height: auto;
         padding: 50px;
@@ -61,24 +96,19 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
 
-        p {
-            text-align: left;
-            font-size: 18px;
-        }
-
         a {
-            color: #2b5cb8d7;
+            color: #ffffffd7;
 
             &:hover {
-                color: blue;
+                color: rgb(148, 160, 163);
             }
         }
 
         @media only screen and (max-width: 75em) {
             padding: 25px;
-
+            
             h1 {
-                font-size: 16px;
+                font-size: 20px;
             }
 
             p {
@@ -206,14 +236,14 @@
     
     /* Style the front side (fallback if image is missing) */
     .flip-card-front {
-        background-color: rgba(175, 236, 248, 0.98);
+        background-color: rgba(72, 193, 218, 0.98);
         flex-direction: column;
         padding: 20px;
         color: #041d4dd7;
     }
     
     .flip-card-back {
-        background-color: dodgerblue;
+        background-color: rgb(9, 34, 59);
         flex-direction: column;
         padding: 20px;
         color: white;
@@ -223,7 +253,7 @@
             color: white;
 
             &:hover {
-                color: navy;
+                color: rgb(105, 105, 155);
             }
         }
     }
