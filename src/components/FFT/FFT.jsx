@@ -12,7 +12,7 @@ const FFT = () => {
         <section id="fft">
             <Container>
                 <Title title="Food for Thought" />
-                <h1 className="subtitle"> January 2022 Edition 🥳</h1>
+                {/* <h1 className="subtitle"> January 2022 Edition 🥳</h1> */}
                 <Fade
                     duration={1000}
                     delay={500}
