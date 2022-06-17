@@ -18,7 +18,6 @@ const Contact = () => {
               {cta || 'Would you like to work with me? Awesome!'}
             </p> <br />
             <p className="contact-info">Email: aaa297@cornell.edu</p>
-            <p className="contact-info">Cell: 571-329-3250</p>
           </div>
         </Fade>
         <div className="form">
